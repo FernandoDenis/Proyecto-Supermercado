@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "supermercado-55228",
+          "appId": "1:535240985856:android:e1a7941d06d18ea04977e5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "supermercado-55228",
+          "configurations": {
+            "android": "1:535240985856:android:e1a7941d06d18ea04977e5",
+            "ios": "1:535240985856:ios:01b7208422c855c74977e5",
+            "macos": "1:535240985856:ios:01b7208422c855c74977e5",
+            "web": "1:535240985856:web:79ae1b0e8fbf23f84977e5",
+            "windows": "1:535240985856:web:4c264e2e51f0c38d4977e5"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
